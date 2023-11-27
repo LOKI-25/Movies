@@ -1,0 +1,51 @@
+# Node.js files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+**/Thumbs.db
+
+# Build and distribution directories
+/build/
+/dist/
+**/build/
+**/dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+**/.vscode/
+**/.idea/
+
+# Environment variables
+.env
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+**/package-lock.json
+**/yarn.lock
+
+# Log files
+logs/
+*.log
+
+**/logs/
+**/*.log
+
+# Miscellaneous
+*.bak
+*.orig
+*~

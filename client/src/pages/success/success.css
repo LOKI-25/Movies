@@ -1,0 +1,34 @@
+.success-page {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #44cc44;
+    background-color: #e8f9e8;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.success-page h1 {
+    color: #44cc44;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.success-page p {
+    font-size: 18px;
+}
+
+.success-button {
+    background-color: #44cc44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.success-button:hover {
+    background-color: #349c34;
+}

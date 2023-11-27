@@ -1,0 +1,66 @@
+/* UpdateMovieForm.css */
+
+.updateForm {
+	max-width: 400px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.updateForm h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.updateForm form {
+	display: flex;
+	flex-direction: column;
+}
+
+.updateForm label {
+	margin-bottom: 5px;
+}
+
+.updateForm input {
+	padding: 8px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.updateForm button {
+	background-color: #3498db;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.updateForm button:hover {
+	background-color: #2980b9;
+}
+
+.updateForm button,
+.updateForm button:hover,
+.updateForm button:active {
+	outline: none;
+	text-decoration: none;
+}
+
+.updateForm button,
+.updateForm button:hover {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.updateForm button+button {
+	margin-top: 10px;
+	background-color: #ccc;
+	color: #333;
+}
+
+.updateForm button+button:hover {
+	background-color: #bbb;
+}

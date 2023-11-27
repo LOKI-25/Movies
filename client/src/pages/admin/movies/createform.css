@@ -1,0 +1,49 @@
+/* CreateForm.css */
+.createForm {
+	max-width: 400px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.createForm h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.createForm form {
+	display: flex;
+	flex-direction: column;
+}
+
+.createForm label {
+	margin-bottom: 5px;
+}
+
+.createForm input {
+	margin-bottom: 10px;
+	padding: 8px;
+	font-size: 14px;
+}
+
+.createForm button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.createForm button:hover {
+	background-color: #08490b;
+}
+
+.createForm button,
+.createForm button:hover,
+.createForm button:active {
+	outline: none;
+	text-decoration: none;
+}

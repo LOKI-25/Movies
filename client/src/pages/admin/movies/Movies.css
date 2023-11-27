@@ -1,0 +1,44 @@
+/* Movies.css */
+.movies-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 20px;
+}
+
+.movie-item {
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 10px;
+	max-width: 200px;
+}
+
+
+.movie-img {
+	width: 100%;
+	height: auto;
+}
+
+.movie-name {
+	font-weight: bold;
+}
+
+.movie-info {
+	font-style: italic;
+}
+
+.movie-price {
+	color: green;
+}
+
+.movie-rating {
+	display: flex;
+}
+.movbtn {
+	margin-top: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+	background-color: #3498db;
+	
+}
